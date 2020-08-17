@@ -24,7 +24,7 @@ abstract class DAO
     {
         //Tentative de connexion à la base de données
         try {
-            $this->connection = new PDO('mysql:host=localhost;dbname=blog-poooooo;charset=utf8;', 'root', 'root');
+            $this->connection = new PDO(DB_HOST, DB_USER, DB_PASS);
             $this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             //On renvoie la connexion
             return $this->connection;
