@@ -6,11 +6,5 @@ error_reporting(E_ALL);
 require '../config/dev.php';
 require '../vendor/autoload.php';
 
-try {
-    if (isset($_GET['route'])) {
-    } else {
-        require '../templates/home.php';
-    }
-} catch (Exception $e) {
-    echo 'Erreur';
-}
+$router = new \App\config\Router();
+$router->run();
