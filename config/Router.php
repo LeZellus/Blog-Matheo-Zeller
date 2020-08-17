@@ -6,22 +6,15 @@ use Exception;
 
 class Router
 {
-    private $request;
-
-    public function __construct()
-    {
-        $this->request = new Request();
-    }
-
     public function run()
     {
-        $route = $this->request->getGet()->get('route');
-
         try {
-            if (isset($route)) {
+            if (isset($_GET['route'])) {
             } else {
+                require '../templates/home.php';
             }
         } catch (Exception $e) {
+            echo 'Erreur';
         }
     }
 }
