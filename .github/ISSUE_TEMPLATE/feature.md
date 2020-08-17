@@ -1,8 +1,8 @@
 ---
-name: "\U0001F6E0️ Feature"
+name: "🔨 Feature"
 about: Suggest an idea for this project
 title: ''
-labels: "\U0001F6E0️ Feature"
+labels: "🔨 Feature"
 assignees: ''
 ---
 

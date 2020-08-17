@@ -2,9 +2,6 @@
 name: "♻️ Refactor"
 about: The code is refactored
 title: ''
-labels: ''
+labels: '♻️ Refactor'
 assignees: ''
-
 ---
-
-

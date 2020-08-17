@@ -1,9 +1,7 @@
 ---
-name: "\U0001F4DD Tests"
+name: "📝 Tests"
 about: Add tests for features or another things
 title: ''
-labels: ''
+labels: '📝 Tests'
 assignees: ''
 ---
-
-

@@ -1,8 +1,8 @@
 ---
-name: "\U0001F41C Bug"
+name: "🐞 Bug"
 about: Create a report to help us improve
 title: ''
-labels: "\U0001F41C Bug"
+labels: "🐞 Bug"
 assignees: ''
 ---
 

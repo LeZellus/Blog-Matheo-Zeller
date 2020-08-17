@@ -1,9 +1,7 @@
 ---
-name: "\U0001F4DA Documentation"
+name: "📚 Documentation"
 about: Add documentation for the app
 title: ''
-labels: "\U0001F4DA Documentation"
+labels: "📚 Documentation"
 assignees: ''
 ---
-
-
