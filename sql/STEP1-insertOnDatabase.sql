@@ -1,4 +1,4 @@
-CREATE TABLE article (
+CREATE TABLE `article` (
   `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
   `title` varchar(100) NOT NULL,
   `content` text NOT NULL,
@@ -6,7 +6,7 @@ CREATE TABLE article (
   `createdAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-CREATE TABLE user (
+CREATE TABLE `user` (
   `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
   `pseudo` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
@@ -17,7 +17,7 @@ CREATE TABLE user (
   `createdAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-CREATE TABLE comment (
+CREATE TABLE `comment` (
    `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
    `pseudo` varchar(100) NOT NULL,
    `content` text NOT NULL,
@@ -26,14 +26,14 @@ CREATE TABLE comment (
    `article_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-CREATE TABLE role (
+CREATE TABLE `role` (
   `id` int(11) NOT NULL PRIMARY KEY,
   `name` varchar(15) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `role` (`id`, `name`) VALUES
-(1, `admin`),
-(2, `user`);
+(1, 'admin'),
+(2, 'user');
 
 ALTER TABLE `role`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
