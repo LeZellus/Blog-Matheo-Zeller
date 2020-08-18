@@ -2,8 +2,7 @@
 Hello, I'm a simple front developper. If you come here , that's because you need the bests tips about integration. Also , I'm running PHP/symfony formation. Register to my blog and you will be alter about my news articles.
 
 ## Code review and quality
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/80747ecc88664eeab1c920e2c96d2aba)](https://app.codacy.com/manual/LeZellus/Blog-Matheo-Zeller?utm_source=github.com&utm_medium=referral&utm_content=LeZellus/Blog-Matheo-Zeller&utm_campaign=Badge_Grade_Settings)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/de7e346a62b24081846796711104ad8d)](https://app.codacy.com/manual/LeZellus/Blog-Matheo-Zeller?utm_source=github.com&utm_medium=referral&utm_content=LeZellus/Blog-Matheo-Zeller&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ab61f8c7bec143aea5dcdf9635d26b2f)](https://www.codacy.com/manual/LeZellus/Blog-Matheo-Zeller?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LeZellus/Blog-Matheo-Zeller&amp;utm_campaign=Badge_Grade) ![GitHub issues](https://img.shields.io/github/issues-raw/LeZellus/Blog-Matheo-Zeller?color=68d391) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/LeZellus/Blog-Matheo-Zeller?color=f56565) ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/LeZellus/Blog-Matheo-Zeller?color=68d391) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/LeZellus/Blog-Matheo-Zeller?color=f56565) [![time tracker](https://wakatime.com/badge/github/LeZellus/Blog-Matheo-Zeller.svg)](https://wakatime.com/badge/github/LeZellus/Blog-Matheo-Zeller) ![GitHub top language](https://img.shields.io/github/languages/top/LeZellus/Blog-Matheo-Zeller) ![GitHub repo size](https://img.shields.io/github/repo-size/LeZellus/Blog-Matheo-Zeller)
 
 ## Getting started
 If you are a developer and you want to install the application on local, you need to follow those steps :
@@ -16,3 +15,4 @@ The first step is to create Database, you have 2 ways to do that :
 Next , you can do the same thing to create tables and seeds (coming soon) with the file `sql/STEP1-insertOnDatabase.sql`
 
 You are now ready to continue the install.
+
