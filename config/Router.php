@@ -18,10 +18,13 @@ class Router
     {
         try {
             if (isset($_GET['route'])) {
+                if ($_GET['route'] === '') {
+                }
+                $this->errorController->errorNotFound();
             }
             $this->frontController->home();
         } catch (Exception $e) {
-            echo 'Erreur';
+            $this->errorController->errorServer();
         }
     }
 }
