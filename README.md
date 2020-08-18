@@ -15,4 +15,3 @@ The first step is to create Database, you have 2 ways to do that :
 Next , you can do the same thing to create tables and seeds (coming soon) with the file `sql/STEP1-insertOnDatabase.sql`
 
 You are now ready to continue the install.
-
