@@ -4,6 +4,14 @@ Hello, I'm a simple front developper. If you come here , that's because you need
 ## Code review and quality
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ab61f8c7bec143aea5dcdf9635d26b2f)](https://www.codacy.com/manual/LeZellus/Blog-Matheo-Zeller?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LeZellus/Blog-Matheo-Zeller&amp;utm_campaign=Badge_Grade)
 
+[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/issues/)
+
+[![GitHub issues-closed](https://img.shields.io/github/issues-closed/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/issues?q=is%3Aissue+is%3Aclosed)
+
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/pull/)
+
+[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/pull/)
+
 ## Getting started
 If you are a developer and you want to install the application on local, you need to follow those steps :
 
