@@ -10,9 +10,8 @@ class Router
     {
         try {
             if (isset($_GET['route'])) {
-            } else {
-                require '../templates/home.php';
             }
+            require '../templates/home.php';
         } catch (Exception $e) {
             echo 'Erreur';
         }
