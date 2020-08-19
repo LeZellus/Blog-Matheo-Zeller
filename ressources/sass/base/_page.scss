@@ -9,13 +9,13 @@ body {
 }
 
 // Ensures page width is always >=320px.
-// @include breakpoint('<=xsmall') {
+@include breakpoint('<=xsmall') {
 
-// 	html,
-// 	body {
-// 		min-width: 320px;
-// 	}
-// }
+	html,
+	body {
+		min-width: 320px;
+	}
+}
 
 // Set box model to border-box.
 // Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
