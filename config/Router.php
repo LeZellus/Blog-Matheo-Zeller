@@ -24,10 +24,9 @@ class Router
                 if ($_GET['route'] === 'article') {
                     $this->frontController->article($_GET['articleId']);
                 }
-                    $this->errorController->errorNotFound();
-            } else {
-                $this->frontController->home();
+                $this->errorController->errorNotFound();
             }
+            $this->frontController->home();
         } catch (Exception $e) {
             $this->errorController->errorServer();
         }

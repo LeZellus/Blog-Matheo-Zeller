@@ -15,3 +15,7 @@ The first step is to create Database, you have 2 ways to do that :
 Next , you can do the same thing to create tables and seeds (coming soon) with the file `sql/STEP1-insertOnDatabase.sql`
 
 You are now ready to continue the install.
+
+### 1-2 | Add css style
+To add some styles on the app, just copy/paste the command line below on the terminal
+`sass --watch ressources/sass/main.scss:public/css/main.css`
