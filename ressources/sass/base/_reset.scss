@@ -112,6 +112,7 @@ section {
 
 body {
   line-height: 1;
+  -webkit-text-size-adjust: none;
 }
 
 ol,
@@ -135,18 +136,9 @@ table {
   border-spacing: 0;
 }
 
-body {
-  -webkit-text-size-adjust: none;
-}
-
 mark {
   background-color: transparent;
   color: inherit;
-}
-
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
 }
 
 input,
@@ -156,4 +148,9 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
 }

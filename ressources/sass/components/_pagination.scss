@@ -10,7 +10,7 @@ ul.pagination {
 		padding-left: 0;
 		vertical-align: middle;
 
-		>.page {
+		> .page {
 			@include vendor('transition', ('background-color #{_duration(transition)} ease-in-out',
 					'color #{_duration(transition)} ease-in-out'
 				));

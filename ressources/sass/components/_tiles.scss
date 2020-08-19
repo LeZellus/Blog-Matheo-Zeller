@@ -5,7 +5,7 @@
 	@include vendor('flex-wrap', 'wrap');
 	border-top: 0 !important;
 
-	&+* {
+	&+ * {
 		border-top: 0 !important;
 	}
 
