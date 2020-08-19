@@ -33,12 +33,12 @@
 		var $window = $(window),
 			$this = $(this);
 
-		if (this.length == 0 || intensity === 0)
+		if (this.length === 0 || intensity === 0)
 			return $this;
 
 		if (this.length > 1) {
 
-			$i = 0;
+			var $i = 0;
 			for ($i; i < this.length; i++)
 				$(this[i])._parallax(intensity);
 
