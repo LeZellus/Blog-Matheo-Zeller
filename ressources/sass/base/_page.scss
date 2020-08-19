@@ -27,7 +27,6 @@ body {
   background: _palette(bg);
   -ms-overflow-style: scrollbar;
 
-
   // Stops initial animations until page loads.
   &.is-preload {
     *,
