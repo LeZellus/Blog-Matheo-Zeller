@@ -2,30 +2,34 @@
 
 namespace App\src\controller;
 
-use App\src\DAO\ArticleDAO;
-use App\src\DAO\CommentDAO;
-
-class FrontController
+class FrontController extends Controller
 {
     private $articleDAO;
     private $commentDAO;
 
-    public function __construct()
-    {
-        $this->articleDAO = new ArticleDAO();
-        $this->commentDAO = new CommentDAO();
-    }
-
+    // Function to display home page
     public function home()
     {
         $articles = $this->articleDAO->getArticles();
         require '../templates/home.php';
     }
 
-    public function article($articleId)
+    // Function to get article by id
+    public function article(Int $articleId)
     {
         $article = $this->articleDAO->getArticle($articleId);
         $comments = $this->commentDAO->getCommentsFromArticle($articleId);
         require '../templates/single.php';
+    }
+
+    // Function to register user
+    public function register(Parameter $post)
+    {
+        if($post->get('submit')) {
+            $this->userDAO->register($post);
+            $this->session->set('register', 'Votre inscription a bien été effectuée');
+            header('Location: ../public/index.php');    
+        }
+        return $this->view->render('register');
     }
 }

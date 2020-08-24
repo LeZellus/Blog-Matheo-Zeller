@@ -32,8 +32,8 @@
                 <li><a href="generic.html">Contact</a></li>
             </ul>
             <ul class="actions stacked">
-                <li><a href="#" class="button primary fit">Register</a></li>
-                <li><a href="#" class="button fit">Log In</a></li>
+                <li><a href="../public/index.php?route=register" class="button primary fit">Register</a></li>
+                <li><a href="../public/index.php?route=login" class="button fit">Log In</a></li>
             </ul>
         </nav>
 
