@@ -1,17 +1,10 @@
-@import 'libs/breakpoints';
-@import 'libs/vendor';
+@import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
-@import 'libs/vars';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
 @import 'libs/html-grid';
-
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
-
-@font-face {
-	font-family: "JetBrain";
-	src: url("../../fonts/web/woff2/JetBrainsMono-Regular.woff2") format("woff2"),
-		url("../../fonts/web/woff/JetBrainsMono-Regular.woff") format("woff");
-}
 
 /*
 	Forty by HTML5 UP
@@ -22,26 +15,26 @@
 // Breakpoints.
 
 @include breakpoints((xlarge: (1281px, 1680px),
-		large: (981px, 1280px),
-		medium: (737px, 980px),
-		small: (481px, 736px),
-		xsmall: (361px, 480px),
-		xxsmall: (null, 360px)));
+    large: (981px, 1280px),
+    medium: (737px, 980px),
+    small: (481px, 736px),
+    xsmall: (361px, 480px),
+    xxsmall: (null, 360px)));
 
 // Mixins.
 
 @mixin inner {
-	>.inner {
-		@include padding(4em, 0);
-		margin: 0 auto;
-		max-width: _size(inner);
-		width: calc(100% - 6em);
+  >.inner {
+    @include padding(4em, 0);
+    margin: 0 auto;
+    max-width: _size(inner);
+    width: calc(100% - 6em);
 
-		@include breakpoint('<=small') {
-			@include padding(3em, 0);
-			width: calc(100% - 3em);
-		}
-	}
+    @include breakpoint('<=small') {
+      @include padding(3em, 0);
+      width: calc(100% - 3em);
+    }
+  }
 }
 
 // Base.

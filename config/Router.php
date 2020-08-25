@@ -10,11 +10,9 @@ class Router
 {
     private $frontController;
     private $errorController;
-    private $request;
 
     public function __construct()
     {
-        $this->request = new Request();
         $this->frontController = new FrontController();
         $this->errorController = new ErrorController();
     }
@@ -25,14 +23,12 @@ class Router
             if (isset($_GET['route'])) {
                 if ($_GET['route'] === 'article') {
                     $this->frontController->article($_GET['articleId']);
-                } elseif($_GET['route'] === 'landing'){
-                    return $this->frontController->landing();
-                }elseif($_GET['route'] === 'register'){
-                    $this->frontController->register($this->request->getPost());
+                } else {
+                    $this->errorController->errorNotFound();
                 }
-                $this->errorController->errorNotFound();
+            } else {
+                $this->frontController->home();
             }
-            $this->frontController->home();
         } catch (Exception $e) {
             $this->errorController->errorServer();
         }
