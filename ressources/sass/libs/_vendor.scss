@@ -304,7 +304,7 @@ $vendor-values: ( // Cross fade.
 
 /// Replaces a substring within each string in a list.
 /// @param {list} $strings List of strings.
-/// @param {string} $search Substring.
+/// @param {string} $search Substring. 
 /// @param {string} $replace Replacement.
 /// @return {list} Updated list of strings.
 @function str-replace-all($strings, $search, $replace: '') {

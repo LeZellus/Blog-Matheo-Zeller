@@ -35,7 +35,7 @@
             </ul>
             <ul class="actions stacked">
                 <li><a href="#" class="button primary fit">Register</a></li>
-                <li><a href="#" class="button fit">Log In</a></li>
+                <li><a href="" class="button fit">Log In</a></li>
             </ul>
         </nav>
 
