@@ -32,7 +32,7 @@ class Request
     }
 
     /**
-     * @return mixed
+     * @return Session
      */
     public function getSession()
     {

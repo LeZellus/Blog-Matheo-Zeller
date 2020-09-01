@@ -4,6 +4,7 @@
     <div class="inner">
         <header class="major">
             <h1>Hello World, my name is Mathéo</h1>
+            <p><?= $this->session->show('register'); ?></p>
         </header>
         <div class="content">
             <p>My first blog, about CSS, integration and more ...</p>
